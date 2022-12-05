@@ -2,18 +2,16 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="p-8 text-white bg-black">
+    <footer className="p-8 text-white bg-black  text-xs">
       <div className="text-center footer-logo ">
         <div className="font-bold">
           <span>Chef Table</span>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4 pt-4 justify-items-center sm:grid-cols-2 md:grid-cols-4 ">
+      <div className="grid grid-cols-1  gap-4 pt-4 ms:justify-items-center sm:grid-cols-2 md:grid-cols-4 ">
         <div className="">
           <div className="text-left">
-            <h3>
-              7983 North Carson Dr. <br /> Brooklyn, NY 11233
-            </h3>
+            <h3>7983 North Carson Dr. Brooklyn, NY 11233</h3>
             <div className="">
               <ul className="flex justify-center">
                 <li className="p-3"> 😃 </li>
